@@ -1,2 +1,2 @@
 # Recommendation-systems
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,stackoverflow,mysql,linux,linkedin,idea,github,atom)](https://skillicons.dev)
