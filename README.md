@@ -9,4 +9,6 @@ TF (Term Frequency): this summarizes how often a given word appears within a doc
 IDF (Inverse Document Frequency): this downscales words that appear a lot across documents. A word that appears in many documents will not be a good keyword to categorize these documents because it does not help differentiate them
 TF-IDF are word frequency scores that try to highlight words that are more interesting, such as frequent in a document but not across documents. The TF-IDF value increases proportionally to the number of times a word appears in the document, but is offset by the frequency of the word in the corpus, which helps to adjust for the fact that some words appear more frequently in general.
 
+In sklearn the TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features. It's equivalent to CountVectorizer followed by TfidfTransformer.
+
 [![My Skills](https://skillicons.dev/icons?i=py,stackoverflow,mysql,linux,idea,github&theme=light)](https://skillicons.dev)
