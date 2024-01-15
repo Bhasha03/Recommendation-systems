@@ -11,4 +11,10 @@ TF-IDF are word frequency scores that try to highlight words that are more inter
 
 In sklearn the TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features. It's equivalent to CountVectorizer followed by TfidfTransformer.
 
+*Compute similarities*
+We need a similarity measure to compute how similar each TED Talk is to every other TED Talk. A common choice is the cosine similarity, which measures the cosine of the angle between two vectors. The closer the cosine similarity is to 1, the more similar the items are.
+
+*Create a function for recommendations*
+The function should take the title of a TED Talk and output recommendations. To get recommendations, we will get the index of the TED Talk in our DataFrame, get the list of cosine similarity scores for that TED Talk, and then sort the scores to get the indexes of the TED Talks with the highest similarity. We can then use these indexes to get the recommended TED Talks from our DataFrame.
+
 [![My Skills](https://skillicons.dev/icons?i=py,stackoverflow,mysql,linux,idea,github&theme=light)](https://skillicons.dev)
